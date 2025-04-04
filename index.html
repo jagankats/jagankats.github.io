@@ -3,14 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Articles</title>
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .resume-container {
+            margin-top: 20px;
+        }
+        iframe {
+            border: none;
+        }
+        .download-button {
+            margin-top: 15px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .download-button:hover {
+            background-color: #005fa3;
+        }
+    </style>
 </head>
 <body>
-    <h1>My Articles</h1>
-    <ul>
-        <li><a href="https://jagankats.github.io/redshift_data_sync.html">Article 1</a></li>
-        <!--<li><a href="article2.html">Article 2</a></li>-->
-        <!--<li><a href="article3.html">Article 3</a></li>-->
-    </ul>
+
+    <h1>Welcome to My Resume</h1>
+    <p>Feel free to view or download my resume below.</p>
+
+    <div class="resume-container">
+        <iframe src="resume.pdf" width="100%" height="800px">
+            Your browser does not support viewing PDFs. 
+            <a href="Jagan_CV_Python_SQL_ETL.pdf">Download PDF</a>
+        </iframe>
+    </div>
+
+    <a href="Jagan_CV_Python_SQL_ETL.pdf" download class="download-button">Download Resume</a>
+
 </body>
 </html>
